@@ -34,14 +34,14 @@ MISSING FOLDERS
 uploads
 
 ##The file is as follows
-/DEADASS
----/node_modules
----/public -index.html,app.js,styles.css
----uploads
-index.html
-package.json
-package-lock.json
-server.js
+- DEADASS -mainfolder
+- /node_modules
+- /public -index.html,app.js,styles.css
+- /uploads
+- index.html
+- package.json
+- package-lock.json
+- server.js
 
 License
 
