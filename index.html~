@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Transfer App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Upload Your Files</h1>
+    <input type="file" id="fileInput" multiple style="display: none;" onchange="handleFiles()">
+    <div id="tabs">
+        <button class="tab" onclick="triggerFileInput()">Gallery</button>
+        <button class="tab" onclick="triggerFileInput()">Documents</button>
+        <button class="tab" onclick="triggerFileInput()">Downloads</button>
+        <button class="tab" onclick="triggerFileInput()">Audio</button>
+    </div>
+    <p id="successMsg"></p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

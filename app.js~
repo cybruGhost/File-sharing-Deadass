@@ -1,0 +1,25 @@
+function triggerFileInput() {
+    document.getElementById('fileInput').click();
+}
+
+function handleFiles() {
+    const files = document.getElementById('fileInput').files;
+    const formData = new FormData();
+
+    for (let i = 0; i < files.length; i++) {
+        formData.append('files', files[i]);
+    }
+
+    fetch('/upload', {
+        method: 'POST',
+        body: formData,
+    })
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById('successMsg').innerText = 'Files uploaded successfully!';
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        document.getElementById('successMsg').innerText = 'Upload failed.';
+    });
+}

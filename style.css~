@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border-radius: 10px;
+}
+
+.tab {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ffafbd;
+    background-image: linear-gradient(315deg, #ffafbd 0%, #ffc3a0 74%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fileInput {
+    margin-top: 20px;
+}
+
+#successMsg {
+    margin-top: 20px;
+    color: #adff2f;
+}
