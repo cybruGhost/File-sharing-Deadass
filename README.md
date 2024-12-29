@@ -30,6 +30,19 @@ Start the server:
 
     Upload files from your phone: Open the URL on your phone and upload a file.
 
+MISSING FOLDERS 
+uploads
+
+##The file is as follows
+/DEADASS
+---/node_modules
+---/public -index.html,app.js,styles.css
+---uploads
+index.html
+package.json
+package-lock.json
+server.js
+
 License
 
 This project is licensed under the MIT License.
