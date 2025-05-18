@@ -90,5 +90,5 @@ This project transfers files over an encrypted HTTPS tunnel (ngrok). Files are s
 MIT License — free to use, modify, and vibe with.
 
 > Made for the moments when AirDrop ain’t working.
-
+tested on kali linux..can also work on windows
 
