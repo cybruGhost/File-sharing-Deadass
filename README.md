@@ -1,4 +1,3 @@
-Here’s a polished and complete version of your README.md for the Deadass file transfer project:
 
 
 ---
