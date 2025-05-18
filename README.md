@@ -93,6 +93,3 @@ MIT License — free to use, modify, and vibe with.
 > Made for the moments when AirDrop ain’t working.
 
 
-
-Let me know if you want to add screenshots, drag & drop support, or rename the project branding to something even cooler.
-
