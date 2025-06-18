@@ -6,7 +6,7 @@
 
 **DEADASS** is a dead-simple local file transfer tool that lets you send files from your **phone to PC** over WiFi or the internet using **Node.js**, **Express**, **ngrok**, and a simple frontend.
 
-> No apps. No cables. Just vibes.
+> No apps. No cables. Just send files.
 
 ---
 
